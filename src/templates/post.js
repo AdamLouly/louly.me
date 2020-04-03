@@ -22,7 +22,7 @@ export default function Post({
   const banner = mdx.frontmatter.banner;
   const postImage = banner ? banner.childImageSharp.fluid.src : null;
   const postUrl = mdx.fields.slug;
-  const site = typeof window !== `undefined` ? require("module") : null
+
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
       <SEO
@@ -109,7 +109,53 @@ export default function Post({
           twitterHandle={config.twitterHandle}
         />
         <br />
+        <Subscribe />
       </Container>
     </Layout>
   );
 }
+
+export const pageQuery = graphql`
+  query($id: String!) {
+    site {
+      ...site
+    }
+    mdx(fields: { id: { eq: $id } }) {
+      excerpt(pruneLength: 300)
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        author
+        banner {
+          childImageSharp {
+            fluid(maxWidth: 900) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+        keywords
+      }
+      fields {
+        slug
+      }
+      body
+    }
+  }
+`;
+
+const SubscribeSection = () => {
+  return (
+    <div
+      css={css`
+        padding: 30px;
+        ${bpMaxSM} {
+          padding: 0;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+      `}
+    ></div>
+  );
+};

@@ -6,7 +6,7 @@ https://louly.me/
 
 ```
 git clone git@github.com:adamlouly/louly.me.git
-cd elazizi.com
+cd louly.me
 yarn
 yarn start
 
