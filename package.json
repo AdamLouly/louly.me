@@ -1,8 +1,8 @@
 {
-  "name": "elazizi-blog",
-  "description": "Youssouf EL Azizi - Blog",
+  "name": "adam-blog",
+  "description": "Adam Louly - Blog",
   "version": "2.0.0",
-  "author": "Youssouf El Azizi",
+  "author": "Adam Louly",
   "dependencies": {
     "@callstack/react-theme-provider": "^2.1.0",
     "@emotion/core": "^10.0.27",

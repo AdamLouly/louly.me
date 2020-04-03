@@ -1,5 +1,5 @@
 [build]
-  command = "yarn run build"
+  command = "yarn; yarn run start"
   publish = "public"
 [build.environment]
   NODE_VERSION = "8.11.3"

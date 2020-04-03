@@ -12,15 +12,17 @@ module.exports = {
     title: config.siteTitle,
     twitterHandle: config.twitterHandle,
     description: config.siteDescription,
-    keywords: ["elazizi", "dev", "react"],
+    keywords: ["adam", "data science", "python"],
     canonicalUrl: config.siteUrl,
     image: config.siteLogo,
     banner: config.banner,
     author: {
       name: config.author,
       minibio: `
-      A Human first 🙌, Full Stack Web Developer 👨🏻‍💻 and OSS believers. I
-      love working with react and ReactNative and I admire writing about my
+      A Data scientist 👨🏻‍💻 who takes pride in
+      building models that translate data points into business insights.
+      Kaggler and OSS believer.
+      I love playing with Data and I admire writing about my
       programming journey 👇👇👇
       `
     },
