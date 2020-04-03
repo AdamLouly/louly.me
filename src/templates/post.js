@@ -22,7 +22,7 @@ export default function Post({
   const banner = mdx.frontmatter.banner;
   const postImage = banner ? banner.childImageSharp.fluid.src : null;
   const postUrl = mdx.fields.slug;
-
+  const site = typeof window !== `undefined` ? require("module") : null
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
       <SEO
