@@ -99,12 +99,7 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-127901499-2"
-      }
-    },
+
     {
       resolve: `gatsby-plugin-feed`,
       options: {
