@@ -8,7 +8,7 @@ module.exports = {
   siteLogo: "images/logo.png", // Used for SEO and manifest, path to your image you placed in the 'static' folder
   banner: "images/banner.png",
   siteDescription:
-    "Data Scientist, Machine Learning, Esports Player",
+    "Machine Learning Engineer",
   author: "Adam Louly", // Author for schemaORGJSONLD
   organization: "Adam Louly",
 

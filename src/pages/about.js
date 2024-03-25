@@ -32,7 +32,7 @@ export default ({ data: { site } }) => {
               text-align: center;
             `}
           >
-            I make models.
+            AI / ML Engineer.
             <br />
 
           </p>
@@ -54,36 +54,22 @@ export default ({ data: { site } }) => {
           <br />
           <br />
           <p>
-            I'm a Data Scientist and Machine Learning engineer
+            As a Machine Learning Engineer, I specialize in AI model optimizations, focusing primarily on efficient training processes.
             <br />
-            I blog from time to time about my journey as a Data Scientist. My blog
-            posts have had over 9k reads and have been featured on Medium top 10 recommended stories. <br />
+            I write about artificial intelligence, LLMs, and techniques for optimizing model training, sharing insights and practical advice for enhancing performance and reducing costs. My articles aim to demystify complex concepts and are available on prominent tech publications.
             <br />
-            I'm actively involved in the Kaggle community
             <br />
-            When I am not coding you can find me playing soccer or Playing League of legends
+            In addition to my writing, I offer consulting services aimed at reducing the cost of ML training for businesses, leveraging my expertise to deliver value and innovation.
+            <br />
+            Beyond my professional pursuits, I enjoy soccer and gaming, with a particular fondness for League of Legends.
             <br />
             <br />
           </p>
           <p>
-            The best way to contact me for a quick question is on my{" "}
-            <a href="https://twitter.com/LoulyAdam" target="_blank">
-              Twitter page
-            </a>{" "}
+            The best way to contact me for quick questions is through my <a href="https://twitter.com/LoulyAdam" target="_blank">Twitter page</a>. For more detailed inquiries, including speaking opportunities, consulting services, or partnerships, feel free to email me at <a href="mailto:adamlouly3@gmail.com">adamlouly3@gmail.com</a>.
             <br />
             <br />
-            Feel free to reach out to me for speaking inquiries, blog
-            partnerships, or if you have questions or comments feel free to
-            email me at{" "}
-            <a href="mailto:adamlouly3@gmail.com">
-              adamlouly3@gmail.com
-            </a>{" "}
-            <br />
-            <br />
-            To get updates from me, Make sure to follow me on{" "}
-            <a href="https://twitter.com/LoulyAdam" target="_blank">
-              Twitter
-            </a>{" "}
+            To stay updated on my latest work and insights, make sure to follow me on <a href="https://twitter.com/LoulyAdam" target="_blank">Twitter</a>.
             <br />
           </p>
         </div>
